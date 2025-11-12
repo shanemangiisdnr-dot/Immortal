@@ -3,7 +3,7 @@
 mode con: cols=100 lines=50
 
 set scriptDir=C:\Immortal
-set scriptName=Immortal.bat
+set scriptName=Immortal.exe
 set scriptReg=HKEY_LOCAL_MACHINE\SOFTWARE\Immortal
 
 set hideVbs=%scriptDir%\hide.vbs
@@ -1931,5 +1931,6 @@ if !osNumber! lss 62 (
 	pause
 	exit
 )
+
 
 exit /b 0
